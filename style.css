@@ -38,6 +38,18 @@ svg {
   top: 5%;
 }
 
+.heart-letter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Arial Black', 'Verdana', sans-serif; /* İstediğiniz şık font */
+  font-size: 2.5rem; /* Harf boyutu, kalbe göre ayarlayın */
+  color: white;      /* Harf rengi */
+  pointer-events: none; /* Animasyonla etkileşim olmasın */
+  text-shadow: 0 0 5px rgba(0,0,0,0.5); /* Hafif gölge efekti */
+}
+
 
 .st0{display:none;}
 	.st1{fill:#D16B59;}
