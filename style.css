@@ -42,20 +42,21 @@ svg {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(-5deg); /* Hafif eğim romantik görünüm */
+  transform: translate(-50%, -50%) rotate(-3deg); /* Hafif eğim */
   
-  font-family: 'Great Vibes', cursive; /* Romantik, el yazısı tarzı font */
-  font-size: 3rem;
-  font-weight: normal;
-  color: #ffe0e6; /* Hafif pembe ton */
+  font-family: 'Dancing Script', cursive; /* İnce ve zarif el yazısı */
+  font-size: 2.8rem; /* Daha küçük ve şık */
+  font-weight: 400; /* Kalın değil, normal */
+  color: #ffccd5; /* Hafif pembe ton, romantik */
   
-  text-shadow: 0 0 8px rgba(255, 192, 203, 0.8), 0 0 15px rgba(255, 182, 193, 0.6);
+  text-shadow: 0 0 5px rgba(255, 182, 193, 0.5); /* Yumuşak glow efekti */
   
   z-index: 9999;
   pointer-events: none;
 
-  animation: heartbeat 1s infinite ease-in-out; /* Kalp ile uyumlu */
+  animation: heartbeat 1s infinite ease-in-out; /* Kalple uyumlu hareket */
 }
+
 
 
 
