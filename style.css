@@ -39,16 +39,23 @@ svg {
 }
 
 .heart-letter {
-  position: absolute;
+  position: absolute; /* zaten gerekli */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Arial Black', 'Verdana', sans-serif; /* İstediğiniz şık font */
-  font-size: 2.5rem; /* Harf boyutu, kalbe göre ayarlayın */
-  color: white;      /* Harf rengi */
-  pointer-events: none; /* Animasyonla etkileşim olmasın */
-  text-shadow: 0 0 5px rgba(0,0,0,0.5); /* Hafif gölge efekti */
+  
+  font-family: 'Poppins', 'Arial Black', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  
+  z-index: 9999; /* En önde olması için yüksek değer */
+  pointer-events: none;
+
+  animation: heartbeat 1s infinite ease-in-out;
 }
+
 
 
 .st0{display:none;}
